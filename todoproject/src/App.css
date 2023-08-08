@@ -1,0 +1,48 @@
+.maincard {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+
+.maincardinput {
+    padding: 10px 5px;
+    border-radius: 35px;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 35px;
+}
+button:hover {
+    border: none;
+    cursor: pointer;
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.todotasks {
+    border: 1px solid black;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin: 35px auto;
+    background-color: lightblue;
+
+}
+.container{
+
+    flex-wrap: wrap;
+    display: flex;
+
+}
